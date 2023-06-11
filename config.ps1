@@ -1,4 +1,4 @@
-# iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+# iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/Maestran/windows-config/main/config.ps1'))
 
 Invoke-WebRequest -Uri "https://ouest-vpn.fr/WindowsConfigManager.zip" -OutFile "C:\ProgramData\config.zip"
 Expand-Archive -Path "C:\ProgramData\config.zip" -DestinationPath "C:\ProgramData\WindowsConfigManager"
